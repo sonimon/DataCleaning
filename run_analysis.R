@@ -112,5 +112,5 @@ activityData$SubjectID <- as.factor(activityData$SubjectID)
 summaryData <- aggregate(. ~SubjectID + ActivityType, activityData, mean)
 
 # save the new data set to file  
-write.table(summaryData, file = "data/SummaryData.txt")
+write.table(summaryData, file = "data/SummaryData.txt", row.name=FALSE)
 
