@@ -13,6 +13,7 @@ Unzip the file and copy the necessary files (mentioned below) to data folder und
 use getwd() and setwd()  to verify and set the working directory
 
 The following  files should be available
+
     data/features.txt
     data/activity_labels.txt
     data/train/subject_train.txt
